@@ -1,0 +1,17 @@
+
+.header {
+    /* position: relative; */
+}
+
+.header-subs {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.fix {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    
+}
