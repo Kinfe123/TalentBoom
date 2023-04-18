@@ -1,0 +1,34 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: transparent;
+   
+    color: black;
+    padding: 2em 3em;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+.tags{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+    flex-wrap: wrap;
+}
+
+.btn{
+    padding: .6em 1.5em;
+    background-color: blanchedalmond;
+    width: 150px;
+    max-width: 60%;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: .3em;
+
+}
