@@ -65,12 +65,14 @@ const LandingPage = () => {
               <br /> and Help them build them finicially for their native
               country
             </p>
-            <div className="hero-cta">
+            <div className="hero-cta" >
               <a
-                href="#toolbar"
+               onClick={() => navigate('/jobs')}
+                href=""
                 onclick="highlightToolbar()"
                 className="primary-button"
               >
+
                 Get Started
               </a>
               <a href="#how" className="secondary-button">
