@@ -5,6 +5,9 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Jobs from "./components/Jobs";
 import Hello from "./pages/Hello";
 import ProtectedRoute from "./components/ProtectedRoute";
+import Dashboardside from "./components/Dashboardside";
+import Skilldetail from "./components/Skilldetail";
+import Skills from "./components/Skills";
 
 
 
@@ -12,7 +15,10 @@ const clerkPubKey = process.env.REACT_APP_CLERK_PUBLISHABLE_KEY;
 export default function App() {
   return (
     <div>
-    <ClerkProvider publishableKey={clerkPubKey}>
+      {/* <Dashboardside/> */}
+      <Skilldetail/>
+      <Skills/>
+    {/* <ClerkProvider publishableKey={clerkPubKey}>
         
       <BrowserRouter>
         <Routes>
@@ -25,11 +31,9 @@ export default function App() {
             </ProtectedRoute>
           }
           />
-         
-
         </Routes>
       </BrowserRouter>
-      </ClerkProvider>
+      </ClerkProvider> */}
     </div>
   );
 }

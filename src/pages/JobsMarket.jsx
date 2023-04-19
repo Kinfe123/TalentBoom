@@ -1,6 +1,7 @@
 import { supabase } from "../configs/supabaseClient"
 import { useEffect, useState } from "react"
 import { useNavigate } from "react-router-dom";
+
 const JobsFecthed = () => {
   const navigate = useNavigate()
   const [errorMsg , setErrorMsg] = useState(null)
@@ -14,9 +15,6 @@ const JobsFecthed = () => {
             .from('jobs')
             .select('*')
 
-        
-
-      
       console.log('the data is : ', data)
       if (error) {
         setErrorMsg('Could not get anonymous thought due to bad network. Please try again')

@@ -1,0 +1,18 @@
+.container{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2em 4em;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(54, 54, 121);
+}
+
+.imgcontainer{
+    margin: 0 .8em;
+    flex-grow: 2;
+}
+
+.notesection{
+    margin: 0 0.8em;
+    flex-grow: 1;
+}
