@@ -1,0 +1,39 @@
+.main_courses_container {
+    background-color: #eee;
+    padding: 2rem;
+}
+
+.search_bar {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: .2rem 1.5rem;
+    margin-top: 2rem;
+    border-radius: .5rem;
+}
+
+.my_name {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.search_icon {
+    font-size: 2.5rem;
+    color: #777;
+}
+.search_input {
+    background-color: white;
+    height: 1.5rem;
+    font-size: 1.3rem;
+    color: #444;
+}
+.courses_container {
+    margin-top: 3rem;
+}
+.courses {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
