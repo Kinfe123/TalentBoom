@@ -1,9 +1,8 @@
 .container {
     background-color: transparent;
     color: black;
-    padding: 2rem;
+    /* padding: 2rem; */
     letter-spacing: 1px;
-
 }
 
 .title {
@@ -27,9 +26,9 @@
 
 }
 .jobs_container {
-    margin: 8rem 3rem;
+    margin: 8rem 0;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     gap: 3rem;
 }
 
