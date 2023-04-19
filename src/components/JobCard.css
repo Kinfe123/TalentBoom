@@ -99,7 +99,7 @@
 .skills {
     border-top: .01rem solid rgba(255, 255, 255, 0.7);
     margin-top: 1rem;
-    padding: 1rem 0;
+    padding-bottom: 1rem;
     display: flex;
     flex-wrap: wrap;
 }
@@ -111,4 +111,5 @@
     font-weight: 200;
     border-radius: .8rem;
     margin-right: 1rem;
+    margin-top: 1rem;
 }
