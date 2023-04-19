@@ -5,8 +5,10 @@ import "./LandingPage.css"; // Import the CSS file for styling
 // import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import BackedBy from "./components/BackedBy";
 import { Navigate, useNavigate } from "react-router-dom";
+// import './main.js'
 import { useClerk, useUser } from "@clerk/clerk-react";
 import Jobs from "./pages/JobsMarket";
+import Navbar from "./components/Navbar";
 
 const LandingPage = () => {
   const navigate = useNavigate();
@@ -20,21 +22,20 @@ const LandingPage = () => {
   }
 
   return (
-    <div>
+    <div className='container'>
       <div>
         <a href="https://a2dt.io" target="_blank" className="refer">
           💡African To Digital Technology
         </a>
-        <nav>
+        <Navbar />
+        {/* <nav>
           <div className="logo">
             <img
               src="https://juxtopposed.github.io/realtimecolors/images/favicon.png"
               alt="logoface"
               className="logoface"
             />
-            <a href="https://realtimecolors.com/" target="_blank">
-              <h2 className="sitename">TalentBoom.</h2>
-            </a>
+           
           </div>
           <div className="menu">
             <a href="#" className="menu-item">
@@ -52,18 +53,17 @@ const LandingPage = () => {
               Sign-Up
             </a>
           </div>
-        </nav>
+        </nav> */}
         <div className="hero">
           <div className="hero-text">
-            <h1>
+            <h1 className='empower'>
               Empowering Africa through{" "}
               <span className="color-effect">Digital Bridge.</span>
               <br />
             </h1>
             <p className="subtitle">
               Unlocking Africa's Potential with Cutting-Edge Digital Solutions.
-              <br /> and Help them build them finicially for their native
-              country
+              <br /> and Help them to connect with local/global talent seeking to provide them a way to develop and work on their nation way to digitalization              country
             </p>
             <div className="hero-cta" >
               <a
@@ -304,8 +304,10 @@ const LandingPage = () => {
           </div>
         </div>
         <main>
+
+          
           <div className="part1" id="why">
-            <h2>Why A2DT</h2>
+            <h2 className='empower'>Why A2DT</h2>
             <div className="part1-cards">
               <div className="part1-card">
                 <svg
@@ -440,26 +442,21 @@ const LandingPage = () => {
           </div>
           <div className="part2" id="how">
             <div className="part2-left">
-              <h2>How Does it Work?</h2>
-              <p>You’ll get your finalized color palette in 4 simple steps.</p>
+              <h2>As Organization </h2>
+              <p>Lets Aspire to Inspire,<br/> Help us to shine hidden native african talent to globe</p>
             </div>
             <div className="part2-right">
               <p className="one step">
-                Start with two neutral colors for the text and the background.
+                We will be working on each and everyone to make sure that they have landed jobs / talent that they are looking for 
               </p>
               <p className="two step">
-                Choose your buttons. Primary is for main CTAs, and Secondary is
-                for less important buttons and info cards.
+                After Successfull landing , We will be providing them a way they can receive their values using WEB3.0 / Blockchain.
               </p>
               <p className="three step">
-                Accent color is an additional color. It appears in images,
-                highlights, hyperlinks, boxes, cards, etc. It can be the same as
-                your third color (primary button) or another color.
+                For those who did not made it , We will be adding them with next Cohort to work more on their valuable skill
               </p>
               <p className="four step">
-                Happy with the results? Press on “Export” and receive a .zip
-                file with your color palette in .png and your color codes in
-                .txt files.
+                Before everything else we also provide them a series of session where they get to learn how to build their RESUME / what thing should be inlcuded or not with in APA styles
               </p>
             </div>
           </div>
@@ -471,13 +468,13 @@ const LandingPage = () => {
           <Contact />
           <div className="part4" id="faq">
             <div className="part4-heading">
-              <h2>FAQ</h2>
+              <h2 className="">FAQ</h2>
               <p>Answers to some questions you might have.</p>
             </div>
             <div className="faq-list">
               <div className="faq">
                 <div className="faq-q">
-                  <h3>How many colors should I choose?</h3>
+                  <h3>How it works?</h3>
                   <svg
                     width={23}
                     height={23}
@@ -511,7 +508,7 @@ const LandingPage = () => {
               </div>
               <div className="faq">
                 <div className="faq-q">
-                  <h3>Why does the text color change sometimes?</h3>
+                  <h3>How to get started with roadmap and start doing projects?</h3>
                   <svg
                     width={23}
                     height={23}
@@ -548,7 +545,7 @@ const LandingPage = () => {
               </div>
               <div className="faq">
                 <div className="faq-q">
-                  <h3>What will I receive after exporting my colors?</h3>
+                  <h3>How can i trust you?</h3>
                   <svg
                     width={23}
                     height={23}
@@ -583,7 +580,7 @@ const LandingPage = () => {
               </div>
               <div className="faq">
                 <div className="faq-q">
-                  <h3>Why do some colors have some transparency?</h3>
+                  <h3>Is it Free?</h3>
                   <svg
                     width={23}
                     height={23}

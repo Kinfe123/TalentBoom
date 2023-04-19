@@ -1,0 +1,106 @@
+
+.color-us {
+    color: var(--primary-color);
+}
+
+.why-us {
+    margin: 50px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.why-us-example {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4px;
+    padding: 20px 20px;
+    gap: 5px;
+    margin-top: 20px;
+
+
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.underline {
+    border: 1px solid var(--primary-color);
+    margin-bottom: 40px;
+    width: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.why-us-example .each-stuff {
+    border: 1px solid white;
+    border-radius: 30px;
+
+    margin: 10px;
+    width: 100%;
+    /* From https://css.glass */
+    /* background: rgba(64, 198, 5, 0.83); */
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.6px);
+    -webkit-backdrop-filter: blur(7.6px);
+    border: 1px solid rgba(64, 198, 5, 0.54);
+    padding: 30px 30px;
+        
+    border-radius: 39px;
+
+        
+        /* background:  */
+    background: transparent;
+
+    box-shadow:  2px 1px 1px var(--color-blog),
+
+        -1px -1px 20px var(--color-blog)
+        
+
+}
+
+.each-stuff h1 {
+    text-align:left;
+    font-size: 30px;
+}
+.each-stuff .learn-more {
+    background: aliceblue;
+    font-size: 14px;
+    color: #216703;
+    border: 0px;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+.lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+.each-stuff {
+   
+}
+
+@media screen and (max-width: 770px){
+    .why-us-example {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 660px){
+    .why-us-example {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

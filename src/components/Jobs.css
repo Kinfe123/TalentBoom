@@ -6,27 +6,29 @@
 
 }
 
-.title {
+.container .title {
     margin-left: auto;
     text-align: center;
     font-weight: 500;
     font-size: 2.5rem;
     letter-spacing: 1px;
 }
-
-.intro {
+.container h2 {
+    font-weight: 200;
+}
+.container .intro {
     text-align: center;
     font-weight: 200;
     opacity: 0.8;
 }
 
-.loading-center {
+.container .loading-center {
     position: absolute;
     left: 47.2%;
     margin: 20px 0px;
 
 }
-.jobs_container {
+.container .jobs_container {
     margin: 8rem 3rem;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -34,7 +36,7 @@
 }
 
 @media screen and (max-width: 85rem) {
-    .jobs_container {
+    .container .jobs_container {
         grid-template-columns: auto auto;
     }
 }
