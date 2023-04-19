@@ -8,6 +8,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import Dashboardside from "./components/Dashboardside";
 import Skilldetail from "./components/Skilldetail";
 import Skills from "./components/Skills";
+import ProfilePage from "./components/Profile";
 
 
 
@@ -16,6 +17,7 @@ export default function App() {
   return (
     <div>
       {/* <Dashboardside/> */}
+      <ProfilePage/>
       <Skilldetail/>
       <Skills/>
     {/* <ClerkProvider publishableKey={clerkPubKey}>
