@@ -2,6 +2,7 @@
 import "./OngoingCourses.css";
 import { MdOutlineSearch } from "react-icons/md";
 import CourseCard from "./CourseCard.jsx";
+import { useUser } from "@clerk/clerk-react";
 
 import { useState } from "react";
 
@@ -16,6 +17,7 @@ function NoResultFound() {
 }
 
 function OngoingCourses({ name, courses }) {
+  const {user} = useUser()
   const [displayedCourses, setDisplayedCourses] = useState(courses);
 
   function displaySearchResults(term) {
@@ -37,7 +39,7 @@ function OngoingCourses({ name, courses }) {
     <div className="main_courses_container">
       <div className="welcome_container">
         <p className="welcome_back">Welcome back</p>
-        <h1 className="my_name">{name}</h1>
+        <h1 className="my_name">{user.username}</h1>
 
         <div className="search_bar">
           <MdOutlineSearch className="search_icon" />

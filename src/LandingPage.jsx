@@ -9,6 +9,7 @@ import { Navigate, useNavigate } from "react-router-dom";
 import { useClerk, useUser } from "@clerk/clerk-react";
 import Jobs from "./pages/JobsMarket";
 import Navbar from "./components/Navbar";
+import Products from "./components/Products";
 
 const LandingPage = () => {
   const navigate = useNavigate();
@@ -467,150 +468,7 @@ const LandingPage = () => {
 
           <Contact />
           <div className="part4" id="faq">
-            <div className="part4-heading">
-              <h2 className="">FAQ</h2>
-              <p>Answers to some questions you might have.</p>
-            </div>
-            <div className="faq-list">
-              <div className="faq">
-                <div className="faq-q">
-                  <h3>How it works?</h3>
-                  <svg
-                    width={23}
-                    height={23}
-                    viewBox="0 0 23 23"
-                    fill="none"
-                    className="faq-icon"
-                  >
-                    <path
-                      d="M11.5 0L11.5 23"
-                      stroke="var(--accent)"
-                      strokeWidth={6}
-                    />
-                    <path
-                      d="M23 11.5L-2.38419e-07 11.5"
-                      stroke="var(--accent)"
-                      strokeWidth={6}
-                    />
-                  </svg>
-                </div>
-                <div className="faq-a">
-                  <p>
-                    Normally, 3 colors are absolutely fine (meaning background,
-                    text, and one accent color).
-                    <br />
-                    However, if you want, you can have more. Usually, we don’t
-                    add more than 6 colors across a platform. It would just make
-                    things too... complicated. Plus, it makes it hard to keep
-                    the colors consistent throughout the design.
-                  </p>
-                </div>
-              </div>
-              <div className="faq">
-                <div className="faq-q">
-                  <h3>How to get started with roadmap and start doing projects?</h3>
-                  <svg
-                    width={23}
-                    height={23}
-                    viewBox="0 0 23 23"
-                    fill="none"
-                    className="faq-icon"
-                  >
-                    <path
-                      d="M11.5 0L11.5 23"
-                      stroke="var(--accent)"
-                      strokeWidth={6}
-                    />
-                    <path
-                      d="M23 11.5L-2.38419e-07 11.5"
-                      stroke="var(--accent)"
-                      strokeWidth={6}
-                    />
-                  </svg>
-                </div>
-                <div className="faq-a">
-                  <p>
-                    The tool is supposed to show you a realistic image of your
-                    colors of choice. However, sometimes, there might be too
-                    little contrast between the background color and the text
-                    color of some elements. In that case, the text color swaps
-                    accordingly to prevent the text from being unreadable. This
-                    is activated when the AA and AAA color contrast check
-                    doesn’t pass. Keep in mind: The text color will only swap
-                    between the background and text colors you’ve chosen to try
-                    and pass the contrast check. It won’t select any color
-                    outside of your choices.
-                  </p>
-                </div>
-              </div>
-              <div className="faq">
-                <div className="faq-q">
-                  <h3>How can i trust you?</h3>
-                  <svg
-                    width={23}
-                    height={23}
-                    viewBox="0 0 23 23"
-                    fill="none"
-                    className="faq-icon"
-                  >
-                    <path
-                      d="M11.5 0L11.5 23"
-                      stroke="var(--accent)"
-                      strokeWidth={6}
-                    />
-                    <path
-                      d="M23 11.5L-2.38419e-07 11.5"
-                      stroke="var(--accent)"
-                      strokeWidth={6}
-                    />
-                  </svg>
-                </div>
-                <div className="faq-a">
-                  <p>
-                    After exporting, you will receive a .zip file. This file is
-                    compressed, so you will have to extract it.
-                    <br />
-                    After extracting it, you will see a .png file and a .txt
-                    file. The .png image shows your color palette in squares
-                    next to each other. The .txt file includes the color codes
-                    in HEX and RGB. You can send these files to designers or
-                    developers, or just use them in your project.
-                  </p>
-                </div>
-              </div>
-              <div className="faq">
-                <div className="faq-q">
-                  <h3>Is it Free?</h3>
-                  <svg
-                    width={23}
-                    height={23}
-                    viewBox="0 0 23 23"
-                    fill="none"
-                    className="faq-icon"
-                  >
-                    <path
-                      d="M11.5 0L11.5 23"
-                      stroke="var(--accent)"
-                      strokeWidth={6}
-                    />
-                    <path
-                      d="M23 11.5L-2.38419e-07 11.5"
-                      stroke="var(--accent)"
-                      strokeWidth={6}
-                    />
-                  </svg>
-                </div>
-                <div className="faq-a">
-                  <p>
-                    This website allows you to choose only opaque colors.
-                    However, to make the design more appealing, I’ve make some
-                    parts more transparent by adding a bit of opacity to them.
-                    Of course, you can use these colors however you want in your
-                    own projects.
-                  </p>
-                </div>
-              </div>
-            </div>
+           <Products/>
           </div>
           <div className="part5" id="end">
             <h1>

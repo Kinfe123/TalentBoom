@@ -11,8 +11,9 @@ import OngoingCourses from "./components/OngoingCourses";
 import courses from './components/Course.json'
 import Skills from "./components/Skills";
 import Skilldetail from "./components/Skilldetail";
+import { Calendar, Customers, Employees, Orders } from "./pages/user-components/pages";
 const clerkPubKey = process.env.REACT_APP_CLERK_PUBLISHABLE_KEY;
-// const {user} = useUser()
+
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
       
           <Route path="/" element={<LandingPage />} />
           <Route path="/home" element={<LandingPage />} />
+          <Route path="/e" element={ <Orders /> } />
           <Route path="/skills" element={<Skills />} />
           <Route path="/skills/:id" element={<Skilldetail />} />
 
@@ -32,7 +34,7 @@ export default function App() {
             <ProtectedRoute>
               <ContextProvider>
               <Hello>
-              <CompletedCourses name={'Kinfe'} courses={courses} />
+              <CompletedCourses  courses={courses} />
               </Hello>
               </ContextProvider>
 
@@ -45,7 +47,7 @@ export default function App() {
             <ProtectedRoute>
               <ContextProvider>
               <Hello>
-              <CompletedCourses name={'Kinfe'} courses={courses} />
+              <CompletedCourses  courses={courses} />
               </Hello>
               </ContextProvider>
 
@@ -59,7 +61,19 @@ export default function App() {
            <ContextProvider>
               <Hello>
 
-                <OngoingCourses name={'Kinfe'} courses={courses} />
+                <OngoingCourses  courses={courses} />
+              </Hello>
+
+           </ContextProvider>
+            </ProtectedRoute>
+             }
+             />
+                 <Route path='/calendar' element={
+            <ProtectedRoute>
+           <ContextProvider>
+              <Hello>
+
+                <Employees />
               </Hello>
 
            </ContextProvider>

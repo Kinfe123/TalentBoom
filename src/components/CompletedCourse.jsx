@@ -3,6 +3,7 @@ import { MdOutlineSearch } from "react-icons/md";
 import CourseCard from "./CourseCard.jsx";
 
 import { useState } from "react";
+import { useUser } from "@clerk/clerk-react";
 // import courses from './Courses.json'
 
 function NoResultFound({ name }) {
@@ -17,10 +18,10 @@ function NoResultFound({ name }) {
 
 function CompletedCourses({ name, courses }) {
   const [displayedCourses, setDisplayedCourses] = useState(courses);
-  
+  const {user} = useUser()
   function displaySearchResults(term) {
     const filtered = courses.filter((course) => {
-        console.log('The stuff : ' , course)
+     
       if (term == "" || term == undefined) {
         return course;
       } else if (
@@ -37,7 +38,7 @@ function CompletedCourses({ name, courses }) {
     <div className="main_courses_container">
       <div className="welcome_container">
         <p className="welcome_back">Welcome back</p>
-        <h1 className="my_name">{name}</h1>
+        <h1 className="my_name">{user.username}</h1>
 
         <div className="search_bar">
           <MdOutlineSearch className="search_icon" />
