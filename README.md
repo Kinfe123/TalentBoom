@@ -1,6 +1,6 @@
 # TalentBoom
 
-TalentBoom is a web application built with ReactJS, Supabase, and Clerk that aims to provide free and quality education resources to African students to help them acquire relevant skills for the job market.
+TalentBoom is a web application built with ReactJS, Supabase, and Clerk that aims to provide free and quality education resources to African students to help them acquire relevant skills for the job market for native talent to connect them with native needs.
 
 ## Problem
 Access to quality education is a major challenge for millions of students in sub-Saharan Africa. Many students lack financial aid, access to resources, and support in their pursuit of education and job opportunities. Additionally, the cost of higher education is often unaffordable for many students and their families.
