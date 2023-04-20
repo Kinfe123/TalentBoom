@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# TalentBoom
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TalentBoom is a web application built with ReactJS, Supabase, and Clerk that aims to provide free and quality education resources to African students to help them acquire relevant skills for the job market for native talent to connect them with native needs.
 
-## Available Scripts
+## Problem
+Access to quality education is a major challenge for millions of students in sub-Saharan Africa. Many students lack financial aid, access to resources, and support in their pursuit of education and job opportunities. Additionally, the cost of higher education is often unaffordable for many students and their families.
 
-In the project directory, you can run:
+## Solution
+TalentBoom provides free educational resources that can be filtered based on the needs of African students. The platform offers detailed roadmaps and required resources on how to learn specific skills. Additionally, the app provides small groups with a mentor who has mastered the skill to provide support and guidance to African students.
 
-### `npm start`
+# TalentBoom
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## About
 
-### `npm test`
+TalentBoom is a web application built with ReactJS, Supabase, and Clerk. Its primary aim is to provide free and quality education resources to African students to help them acquire relevant skills for the job market.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Problems Solved
 
-### `npm run build`
+- Lack of access to quality education: According to UNESCO, about 32 million children in sub-Saharan Africa do not have access to quality education. TalentBoom aims to provide free and quality education resources to African students to help them acquire relevant skills for the job market.
+- High cost of tuition: The cost of higher education in Africa is often unaffordable for many students and their families. According to the World Bank, the cost of tuition and fees as a percentage of income per capita in Africa is the highest in the world. TalentBoom aims to provide free educational resources to help mitigate the financial burden of education for African students.
+- Lack of financial aid: Many African students lack access to financial aid to pursue higher education. TalentBoom aims to provide free educational resources to help mitigate the financial burden of education for African students.
+- Lack of resources: Many African students lack access to the resources needed to acquire relevant skills for the job market. TalentBoom aims to provide a platform that gives African students job resources that can be filtered based on their needs, including detailed roadmaps and required resources on how to learn specific skills.
+- Lack of support: Many African students lack support in their pursuit of education and job opportunities. TalentBoom aims to provide skill-curated small groups with a mentor who has mastered the skill to provide support and guidance to African students.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- ReactJS
+- Supabase
+- Clerk
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+1. Clone the repository.
+2. Install the dependencies with `npm install`.
+3. Start the development server with `npm start`.
+4. Open `http://localhost:3000` in your browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributions are welcome! Please feel free to submit a pull request or open an issue if you have any questions or suggestions.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project is licensed under the terms of the MIT license.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+##Technologies Used
+TalentBoom is built with the following technologies:
+    ReactJS
+    Supabase
+    Clerk
+    Expressjs
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Features
+    Free access to quality education resources
+    Skill-curated small groups with mentorship and support
+    Roadmaps and required resources for learning specific skills
+    Filtered search for job resources
+    Responsive design for optimal user experience on all devices
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
